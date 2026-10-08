@@ -27,3 +27,7 @@ Thumbs.db
 # Generated/test files
 *.tmp
 *.bak
+
+# Large generated/local files
+certificate-management-backend/src/main/resources/geoip/*.mmdb
+certificate-management-backend/recent_errors_search.txt
