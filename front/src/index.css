@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --app-bg: 244 247 251;
+  --app-surface: 255 255 255;
+  --app-surface-muted: 241 245 249;
+  --app-surface-strong: 248 250 252;
+  --app-border: 226 232 240;
+  --app-border-strong: 203 213 225;
+  --app-text: 15 23 42;
+  --app-heading: 2 6 23;
+  --app-muted: 100 116 139;
+  --app-shadow: 15 23 42;
+  --app-grid: 148 163 184;
+}
+
+.dark {
+  color-scheme: dark;
+  --app-bg: 8 13 24;
+  --app-surface: 15 23 42;
+  --app-surface-muted: 15 23 42;
+  --app-surface-strong: 2 6 23;
+  --app-border: 30 41 59;
+  --app-border-strong: 51 65 85;
+  --app-text: 226 232 240;
+  --app-heading: 248 250 252;
+  --app-muted: 148 163 184;
+  --app-shadow: 2 6 23;
+  --app-grid: 71 85 105;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(var(--app-bg));
+  color: rgb(var(--app-text));
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.app-shell {
+  background-color: rgb(var(--app-bg));
+  color: rgb(var(--app-text));
+}
+
+.app-surface {
+  background-color: rgb(var(--app-surface));
+  border: 1px solid rgb(var(--app-border));
+  box-shadow: 0 18px 45px rgb(var(--app-shadow) / 0.08);
+}
+
+.dark .app-surface {
+  box-shadow: 0 20px 55px rgb(var(--app-shadow) / 0.32);
+}
+
+.app-surface-soft {
+  background-color: rgb(var(--app-surface-muted) / 0.76);
+  border: 1px solid rgb(var(--app-border));
+}
+
+.app-surface-strong {
+  background-color: rgb(var(--app-surface-strong));
+  border: 1px solid rgb(var(--app-border));
+}
+
+.app-topbar {
+  background-color: rgb(var(--app-bg) / 0.82);
+  border-bottom: 1px solid rgb(var(--app-border));
+  backdrop-filter: blur(16px);
+}
+
+.app-input,
+.app-select,
+.app-textarea {
+  background-color: rgb(var(--app-surface-strong));
+  border: 1px solid rgb(var(--app-border));
+  color: rgb(var(--app-heading));
+  transition:
+    border-color 150ms ease,
+    background-color 150ms ease,
+    color 150ms ease;
+}
+
+.app-input::placeholder,
+.app-textarea::placeholder {
+  color: rgb(var(--app-muted));
+}
+
+.app-input:focus,
+.app-select:focus,
+.app-textarea:focus {
+  outline: none;
+  border-color: rgb(99 102 241 / 0.45);
+  box-shadow: 0 0 0 3px rgb(99 102 241 / 0.12);
+}
+
+.app-heading {
+  color: rgb(var(--app-heading));
+}
+
+.app-muted {
+  color: rgb(var(--app-muted));
+}
+
+.app-grid-backdrop {
+  background-image:
+    linear-gradient(to right, rgb(var(--app-grid) / 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(var(--app-grid) / 0.12) 1px, transparent 1px);
+}
