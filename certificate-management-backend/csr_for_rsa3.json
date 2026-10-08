@@ -1,0 +1,170 @@
+﻿[
+    {
+        "authorityKeyIdentifier":  false,
+        "ca":  false,
+        "caIssuersUrl":  null,
+        "commonName":  "TestRSA3",
+        "country":  "US",
+        "createdAt":  "2026-09-03T18:08:04",
+        "createdBy":  "admin",
+        "crlUrls":  [
+
+                    ],
+        "csrAlias":  "test-rsa-csr-3",
+        "csrPem":  "-----BEGIN CERTIFICATE REQUEST-----\r\nMIICozCCAYsCAQAwMDERMA8GA1UEAwwIVGVzdFJTQTMxDjAMBgNVBAoMBU15T3Jn\r\nMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANST\r\nTX/2tj8S4LKiRgO07Wu6ppWNGsqWg2J7lfZCsJR12UXDh+DAooGYuLFJjDgsmcY7\r\nwz3vIn7sXliShdWG7Iag1AQsjU8i6uKWzQwVpCK90F31Spv6HGAMRVOEstfAqbNd\r\nO1Cn1QjAiHN/0roTWB6hzjSrKGbUtSxMmNDcOqihWQKe3wjr5Jhm7sov4LlN38pt\r\nUd1kvrvQxbKNVDxCpJtO4nMTIZtuod1+S+6M8ezt5NdZLyGdDTieS/sZhhQO6cPd\r\n7wOq9OnCI5Lm/jCUoNDvsoLfrSd+hfBcEAXUQp9kXwcoCDWWhutmNH7SmZcYo2Yb\r\nnxt5zxaGElCm9Ua9he8CAwEAAaAuMCwGCSqGSIb3DQEJDjEfMB0wDAYDVR0TAQH/\r\nBAIwADANBgNVHQ8BAf8EAwMBADANBgkqhkiG9w0BAQsFAAOCAQEAmM9Y61Y/2Qgk\r\nXNZwLCvl+/sOtGC0lXRSgRNmoHVGDbkKmzPNAlby1EWL6BdbjdzwP83VkPjE1QWm\r\nmayk5gU299UjDZGiQC4DQQbycCJsnHljodiiM+nM8071RLVk6eUy9dF6Tm5rnCa/\r\nyQHjtZ6Vls4rnNw2yIRmGaaKsWnBpxyqmgfAzl8FJ9flK7UhO+86MOQOY0Z6WKj6\r\nIolavy1JxtXfgkbhV5JHCzQ11hWTyURE98moV92/E4u6llNl4Af+ywWNrsJ9Qaa8\r\nhv5Hl+TiiKzxWOKDazNA7pFsda5xMB2yTon4h6SBnm9MUcnQkfZiDltRqde7Hvc7\r\nWm5aU1PO0g==\r\n-----END CERTIFICATE REQUEST-----\r\n",
+        "dnsNames":  [
+
+                     ],
+        "email":  null,
+        "expired":  false,
+        "extendedKeyUsages":  [
+
+                              ],
+        "id":  8,
+        "ipAddresses":  [
+
+                        ],
+        "issued":  false,
+        "keyAlias":  "test-rsa-key-3",
+        "keyUsages":  [
+
+                      ],
+        "locality":  null,
+        "notAfter":  null,
+        "notBefore":  null,
+        "ocspUrl":  null,
+        "organization":  "MyOrg",
+        "organizationalUnit":  null,
+        "pathLength":  null,
+        "signatureAlgorithm":  "SHA256withRSA",
+        "state":  null,
+        "status":  "PENDING",
+        "subjectKeyIdentifier":  false
+    },
+    {
+        "authorityKeyIdentifier":  false,
+        "ca":  false,
+        "caIssuersUrl":  null,
+        "commonName":  "TestRSA3",
+        "country":  "US",
+        "createdAt":  "2026-09-03T18:12:28",
+        "createdBy":  "admin",
+        "crlUrls":  [
+
+                    ],
+        "csrAlias":  "test-rsa-csr-3",
+        "csrPem":  "-----BEGIN CERTIFICATE REQUEST-----\r\nMIICozCCAYsCAQAwMDERMA8GA1UEAwwIVGVzdFJTQTMxDjAMBgNVBAoMBU15T3Jn\r\nMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANST\r\nTX/2tj8S4LKiRgO07Wu6ppWNGsqWg2J7lfZCsJR12UXDh+DAooGYuLFJjDgsmcY7\r\nwz3vIn7sXliShdWG7Iag1AQsjU8i6uKWzQwVpCK90F31Spv6HGAMRVOEstfAqbNd\r\nO1Cn1QjAiHN/0roTWB6hzjSrKGbUtSxMmNDcOqihWQKe3wjr5Jhm7sov4LlN38pt\r\nUd1kvrvQxbKNVDxCpJtO4nMTIZtuod1+S+6M8ezt5NdZLyGdDTieS/sZhhQO6cPd\r\n7wOq9OnCI5Lm/jCUoNDvsoLfrSd+hfBcEAXUQp9kXwcoCDWWhutmNH7SmZcYo2Yb\r\nnxt5zxaGElCm9Ua9he8CAwEAAaAuMCwGCSqGSIb3DQEJDjEfMB0wDAYDVR0TAQH/\r\nBAIwADANBgNVHQ8BAf8EAwMBADANBgkqhkiG9w0BAQsFAAOCAQEAmM9Y61Y/2Qgk\r\nXNZwLCvl+/sOtGC0lXRSgRNmoHVGDbkKmzPNAlby1EWL6BdbjdzwP83VkPjE1QWm\r\nmayk5gU299UjDZGiQC4DQQbycCJsnHljodiiM+nM8071RLVk6eUy9dF6Tm5rnCa/\r\nyQHjtZ6Vls4rnNw2yIRmGaaKsWnBpxyqmgfAzl8FJ9flK7UhO+86MOQOY0Z6WKj6\r\nIolavy1JxtXfgkbhV5JHCzQ11hWTyURE98moV92/E4u6llNl4Af+ywWNrsJ9Qaa8\r\nhv5Hl+TiiKzxWOKDazNA7pFsda5xMB2yTon4h6SBnm9MUcnQkfZiDltRqde7Hvc7\r\nWm5aU1PO0g==\r\n-----END CERTIFICATE REQUEST-----\r\n",
+        "dnsNames":  [
+
+                     ],
+        "email":  null,
+        "expired":  false,
+        "extendedKeyUsages":  [
+
+                              ],
+        "id":  9,
+        "ipAddresses":  [
+
+                        ],
+        "issued":  false,
+        "keyAlias":  "test-rsa-key-3",
+        "keyUsages":  [
+
+                      ],
+        "locality":  null,
+        "notAfter":  null,
+        "notBefore":  null,
+        "ocspUrl":  null,
+        "organization":  "MyOrg",
+        "organizationalUnit":  null,
+        "pathLength":  null,
+        "signatureAlgorithm":  "SHA256withRSA",
+        "state":  null,
+        "status":  "PENDING",
+        "subjectKeyIdentifier":  false
+    },
+    {
+        "authorityKeyIdentifier":  false,
+        "ca":  false,
+        "caIssuersUrl":  null,
+        "commonName":  "TestRSA3",
+        "country":  "US",
+        "createdAt":  "2026-09-03T18:22:05",
+        "createdBy":  "admin",
+        "crlUrls":  [
+
+                    ],
+        "csrAlias":  "test-rsa-csr-3",
+        "csrPem":  "-----BEGIN CERTIFICATE REQUEST-----\r\nMIICozCCAYsCAQAwMDERMA8GA1UEAwwIVGVzdFJTQTMxDjAMBgNVBAoMBU15T3Jn\r\nMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANST\r\nTX/2tj8S4LKiRgO07Wu6ppWNGsqWg2J7lfZCsJR12UXDh+DAooGYuLFJjDgsmcY7\r\nwz3vIn7sXliShdWG7Iag1AQsjU8i6uKWzQwVpCK90F31Spv6HGAMRVOEstfAqbNd\r\nO1Cn1QjAiHN/0roTWB6hzjSrKGbUtSxMmNDcOqihWQKe3wjr5Jhm7sov4LlN38pt\r\nUd1kvrvQxbKNVDxCpJtO4nMTIZtuod1+S+6M8ezt5NdZLyGdDTieS/sZhhQO6cPd\r\n7wOq9OnCI5Lm/jCUoNDvsoLfrSd+hfBcEAXUQp9kXwcoCDWWhutmNH7SmZcYo2Yb\r\nnxt5zxaGElCm9Ua9he8CAwEAAaAuMCwGCSqGSIb3DQEJDjEfMB0wDAYDVR0TAQH/\r\nBAIwADANBgNVHQ8BAf8EAwMBADANBgkqhkiG9w0BAQsFAAOCAQEAmM9Y61Y/2Qgk\r\nXNZwLCvl+/sOtGC0lXRSgRNmoHVGDbkKmzPNAlby1EWL6BdbjdzwP83VkPjE1QWm\r\nmayk5gU299UjDZGiQC4DQQbycCJsnHljodiiM+nM8071RLVk6eUy9dF6Tm5rnCa/\r\nyQHjtZ6Vls4rnNw2yIRmGaaKsWnBpxyqmgfAzl8FJ9flK7UhO+86MOQOY0Z6WKj6\r\nIolavy1JxtXfgkbhV5JHCzQ11hWTyURE98moV92/E4u6llNl4Af+ywWNrsJ9Qaa8\r\nhv5Hl+TiiKzxWOKDazNA7pFsda5xMB2yTon4h6SBnm9MUcnQkfZiDltRqde7Hvc7\r\nWm5aU1PO0g==\r\n-----END CERTIFICATE REQUEST-----\r\n",
+        "dnsNames":  [
+
+                     ],
+        "email":  null,
+        "expired":  false,
+        "extendedKeyUsages":  [
+
+                              ],
+        "id":  10,
+        "ipAddresses":  [
+
+                        ],
+        "issued":  false,
+        "keyAlias":  "test-rsa-key-3",
+        "keyUsages":  [
+
+                      ],
+        "locality":  null,
+        "notAfter":  null,
+        "notBefore":  null,
+        "ocspUrl":  null,
+        "organization":  "MyOrg",
+        "organizationalUnit":  null,
+        "pathLength":  null,
+        "signatureAlgorithm":  "SHA256withRSA",
+        "state":  null,
+        "status":  "PENDING",
+        "subjectKeyIdentifier":  false
+    },
+    {
+        "authorityKeyIdentifier":  false,
+        "ca":  false,
+        "caIssuersUrl":  null,
+        "commonName":  "TestRSA3",
+        "country":  "US",
+        "createdAt":  "2026-09-03T18:23:51",
+        "createdBy":  "admin",
+        "crlUrls":  [
+
+                    ],
+        "csrAlias":  "test-rsa-csr-3",
+        "csrPem":  "-----BEGIN CERTIFICATE REQUEST-----\r\nMIICozCCAYsCAQAwMDERMA8GA1UEAwwIVGVzdFJTQTMxDjAMBgNVBAoMBU15T3Jn\r\nMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANST\r\nTX/2tj8S4LKiRgO07Wu6ppWNGsqWg2J7lfZCsJR12UXDh+DAooGYuLFJjDgsmcY7\r\nwz3vIn7sXliShdWG7Iag1AQsjU8i6uKWzQwVpCK90F31Spv6HGAMRVOEstfAqbNd\r\nO1Cn1QjAiHN/0roTWB6hzjSrKGbUtSxMmNDcOqihWQKe3wjr5Jhm7sov4LlN38pt\r\nUd1kvrvQxbKNVDxCpJtO4nMTIZtuod1+S+6M8ezt5NdZLyGdDTieS/sZhhQO6cPd\r\n7wOq9OnCI5Lm/jCUoNDvsoLfrSd+hfBcEAXUQp9kXwcoCDWWhutmNH7SmZcYo2Yb\r\nnxt5zxaGElCm9Ua9he8CAwEAAaAuMCwGCSqGSIb3DQEJDjEfMB0wDAYDVR0TAQH/\r\nBAIwADANBgNVHQ8BAf8EAwMBADANBgkqhkiG9w0BAQsFAAOCAQEAmM9Y61Y/2Qgk\r\nXNZwLCvl+/sOtGC0lXRSgRNmoHVGDbkKmzPNAlby1EWL6BdbjdzwP83VkPjE1QWm\r\nmayk5gU299UjDZGiQC4DQQbycCJsnHljodiiM+nM8071RLVk6eUy9dF6Tm5rnCa/\r\nyQHjtZ6Vls4rnNw2yIRmGaaKsWnBpxyqmgfAzl8FJ9flK7UhO+86MOQOY0Z6WKj6\r\nIolavy1JxtXfgkbhV5JHCzQ11hWTyURE98moV92/E4u6llNl4Af+ywWNrsJ9Qaa8\r\nhv5Hl+TiiKzxWOKDazNA7pFsda5xMB2yTon4h6SBnm9MUcnQkfZiDltRqde7Hvc7\r\nWm5aU1PO0g==\r\n-----END CERTIFICATE REQUEST-----\r\n",
+        "dnsNames":  [
+
+                     ],
+        "email":  null,
+        "expired":  false,
+        "extendedKeyUsages":  [
+
+                              ],
+        "id":  11,
+        "ipAddresses":  [
+
+                        ],
+        "issued":  false,
+        "keyAlias":  "test-rsa-key-3",
+        "keyUsages":  [
+
+                      ],
+        "locality":  null,
+        "notAfter":  null,
+        "notBefore":  null,
+        "ocspUrl":  null,
+        "organization":  "MyOrg",
+        "organizationalUnit":  null,
+        "pathLength":  null,
+        "signatureAlgorithm":  "SHA256withRSA",
+        "state":  null,
+        "status":  "PENDING",
+        "subjectKeyIdentifier":  false
+    }
+]

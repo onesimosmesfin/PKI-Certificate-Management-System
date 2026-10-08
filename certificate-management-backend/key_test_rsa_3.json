@@ -1,0 +1,12 @@
+﻿{
+    "algorithm":  "RSA",
+    "alias":  "test-rsa-key-3",
+    "createdAt":  "2026-09-03T18:07:40",
+    "createdBy":  "admin",
+    "curveName":  null,
+    "hsmLabel":  "test-rsa-key-3",
+    "id":  17,
+    "isHsmKey":  true,
+    "keySize":  2048,
+    "publicKey":  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1JNNf/a2PxLgsqJGA7Tta7qmlY0aypaDYnuV9kKwlHXZRcOH4MCigZi4sUmMOCyZxjvDPe8ifuxeWJKF1YbshqDUBCyNTyLq4pbNDBWkIr3QXfVKm/ocYAxFU4Sy18Cps107UKfVCMCIc3/SuhNYHqHONKsoZtS1LEyY0Nw6qKFZAp7fCOvkmGbuyi/guU3fym1R3WS+u9DFso1UPEKkm07icxMhm26h3X5L7ozx7O3k11kvIZ0NOJ5L+xmGFA7pw93vA6r06cIjkub+MJSg0O+ygt+tJ36F8FwQBdRCn2RfBygINZaG62Y0ftKZlxijZhufG3nPFoYSUKb1Rr2F7wIDAQAB"
+}

@@ -1,0 +1,12 @@
+﻿{
+    "algorithm":  "EC",
+    "alias":  "test-ec-key-5",
+    "createdAt":  "2026-09-03T18:23:50",
+    "createdBy":  "admin",
+    "curveName":  "secp256r1",
+    "hsmLabel":  "test-ec-key-5",
+    "id":  20,
+    "isHsmKey":  true,
+    "keySize":  0,
+    "publicKey":  "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKfyFIeFB++s1WLp5pnRLl3W2UteGUfUdWL9hBC9vwN11pPimr29wc6qGSvIarsPoCmcDz3KM4U4sVGTHs2LFAQ=="
+}

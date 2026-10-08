@@ -1,0 +1,65 @@
+package org.insa.pki.certificatemanagement.certificateManagmentBackend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+import java.security.Provider;
+import java.security.Security;
+
+@EnableScheduling
+@SpringBootApplication
+public class Application {
+
+	public static final String SOFTHSM_PROVIDER_NAME = "SunPKCS11-SoftHSM";
+	private static final String SOFTHSM2_CONF = "C:/SoftHSM2/etc/softhsm2.conf";
+	private static final String SOFTHSM_LIBRARY = "C:/SoftHSM2/lib/softhsm2-x64.dll";
+	private static final int MAX_SLOT_SCAN = 32;
+
+	public static void main(String[] args) {
+		try {
+			System.setProperty("SOFTHSM2_CONF", SOFTHSM2_CONF);
+			registerSoftHsmProvider();
+		} catch (Exception e) {
+			System.err.println("HSM initialization failed: " + e.getMessage());
+			e.printStackTrace();
+		}
+
+		SpringApplication.run(Application.class, args);
+	}
+
+	public static Provider registerSoftHsmProvider() {
+		Provider existing = Security.getProvider(SOFTHSM_PROVIDER_NAME);
+		if (existing != null) {
+			System.out.println("HSM Provider already registered as " + SOFTHSM_PROVIDER_NAME + ".");
+			return existing;
+		}
+
+		Provider base = Security.getProvider("SunPKCS11");
+		if (base == null) {
+			throw new IllegalStateException("SunPKCS11 provider is not available on this JDK");
+		}
+
+		Exception lastException = null;
+		for (int slotIndex = 0; slotIndex < MAX_SLOT_SCAN; slotIndex++) {
+			try {
+				String config = "--name=" + SOFTHSM_PROVIDER_NAME + "\n" +
+						"library=" + SOFTHSM_LIBRARY + "\n" +
+						"slotListIndex=" + slotIndex;
+				Provider p = base.configure(config);
+				Security.addProvider(p);
+				System.out.println("HSM Provider registered successfully as " + SOFTHSM_PROVIDER_NAME + " using slot index " + slotIndex + ".");
+				return p;
+			} catch (Exception e) {
+				lastException = e;
+				System.out.println("SoftHSM slot " + slotIndex + " rejected: " + e.getMessage());
+			}
+		}
+
+		if (lastException != null) {
+			throw new IllegalStateException("Unable to initialize the SoftHSM provider on any slot in this environment", lastException);
+		}
+
+		throw new IllegalStateException("Unable to initialize the SoftHSM provider: no usable slot found");
+	}
+}
