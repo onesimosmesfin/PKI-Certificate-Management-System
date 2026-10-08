@@ -1,0 +1,29 @@
+﻿# Java / Maven
+target/
+bin/
+*.class
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated/test files
+*.tmp
+*.bak
